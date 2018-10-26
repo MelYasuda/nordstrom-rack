@@ -33,7 +33,7 @@ a {
 }
 
 #logo {
-  margin: 3% 40% 3% 40%;
+  margin: 2% 40% 1% 40%;
 }
 
 .dropdown-toggle {
@@ -49,6 +49,23 @@ a {
   border: 0;
 }
 
-.img-link {
+.img-link1 {
   margin: 1% 15% 1% 15%;
 }
+
+.img-link2 {
+  margin: 0 15% 1% 15%;
+}
+
+/* .container {
+    position: relative;
+    text-align: center;
+    color: white;
+} */
+
+/* .designer-shoes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
