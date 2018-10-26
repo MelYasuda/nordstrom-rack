@@ -5,13 +5,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TopNavbarComponent } from './top-navbar/top-navbar.component';
 import { LogoComponent } from './logo/logo.component';
+import { BottomNavbarComponent } from './bottom-navbar/bottom-navbar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavbarComponent,
-    LogoComponent
+    LogoComponent,
+    BottomNavbarComponent
   ],
   imports: [
     BrowserModule

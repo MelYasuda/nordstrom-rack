@@ -31,3 +31,7 @@ a {
   font-family: 'Noto Sans', sans-serif;
   font-size: 15px;
 }
+
+#logo {
+  margin: 3% 40% 3% 40%;
+}
