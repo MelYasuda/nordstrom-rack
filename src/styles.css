@@ -60,7 +60,6 @@ a {
 .container {
     position: relative;
     text-align: center;
-    color: white;
     margin: 0 15% 1% 8.9%;
 }
 
@@ -72,7 +71,8 @@ a {
     left: 30%;
     transform: translate(-50%, -50%);
     display: inline-block;
-    margin-right: -10px
+    margin-right: -10px;
+    color: white;
 }
 
 #designer {
