@@ -1,12 +1,31 @@
-/* body {
-  margin-left: 15%;
-  margin-right: 15%
-} */
-
 nav.navbar {
   padding-left: 15%;
   padding-right: 15%;
   background-color: #dbdbdb;
   padding-top: 0;
   padding-bottom: 0;
+  font-size: 13px;
+}
+
+a {
+  color: #55565a;
+}
+
+#brand1 {
+  background-color: white;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#brand2 {
+  background-color: #b8b8ba;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#cart {
+  background-color: #00b1d4;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: white;
 }
