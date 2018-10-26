@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Panel } from '../models/panel.model';
 
 @Component({
   selector: 'app-square-panel',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./square-panel.component.css']
 })
 export class SquarePanelComponent implements OnInit {
+
+  @Input() childPanelList: Panel[];
 
   constructor() { }
 
