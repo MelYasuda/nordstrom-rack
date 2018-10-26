@@ -7,6 +7,7 @@ import { TopNavbarComponent } from './top-navbar/top-navbar.component';
 import { LogoComponent } from './logo/logo.component';
 import { BottomNavbarComponent } from './bottom-navbar/bottom-navbar.component';
 import { ImgLinkComponent } from './img-link/img-link.component';
+import { SquarePanelComponent } from './square-panel/square-panel.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ImgLinkComponent } from './img-link/img-link.component';
     TopNavbarComponent,
     LogoComponent,
     BottomNavbarComponent,
-    ImgLinkComponent
+    ImgLinkComponent,
+    SquarePanelComponent
   ],
   imports: [
     BrowserModule

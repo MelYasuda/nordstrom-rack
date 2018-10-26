@@ -53,19 +53,36 @@ a {
   margin: 1% 15% 1% 15%;
 }
 
-.img-link2 {
+/* .img-link2 {
   margin: 0 15% 1% 15%;
-}
+} */
 
-/* .container {
+.container {
     position: relative;
     text-align: center;
     color: white;
-} */
+    margin: 0 15% 1% 8.9%;
+}
 
-/* .designer-shoes {
+.designer-shoes {
+    font-weight: bold;
+    font-size: 50px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 30%;
     transform: translate(-50%, -50%);
-} */
+    display: inline-block;
+    margin-right: -10px
+}
+
+#designer {
+  text-align: left;
+  margin-bottom: 0;
+  padding-bottom: 0
+}
+
+#shoes {
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0
+}
