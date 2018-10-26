@@ -25,7 +25,9 @@ a {
 
 #cart {
   background-color: #00b1d4;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
   color: white;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
 }
