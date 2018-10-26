@@ -35,3 +35,20 @@ a {
 #logo {
   margin: 3% 40% 3% 40%;
 }
+
+.dropdown-toggle {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.search-button {
+  background-color: transparent;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  color: #00b1d4;
+  border: 0;
+}
+
+.img-link {
+  margin: 1% 15% 1% 15%;
+}
