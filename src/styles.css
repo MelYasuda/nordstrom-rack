@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/* body {
+  margin-left: 15%;
+  margin-right: 15%
+} */
+
+nav.navbar {
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #dbdbdb;
+  padding-top: 0;
+  padding-bottom: 0;
+}
