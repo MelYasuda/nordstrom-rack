@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {Panel} from './models/panel.model';
+import { Carousel } './models/carousel.model';
 
 @Component({
   selector: 'app-root',

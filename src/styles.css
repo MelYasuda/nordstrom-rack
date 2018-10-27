@@ -49,9 +49,9 @@ a {
   border: 0;
 }
 
-.img-link1 {
+/* .img-link1 {
   margin: 1% 15% 1% 15%;
-}
+} */
 
 /* .img-link2 {
   margin: 0 15% 1% 15%;
@@ -60,7 +60,7 @@ a {
 .container {
     position: relative;
     text-align: center;
-    margin: 0 15% 1% 8.9%;
+    /* margin: 0 15% 1% 8.9%; */
 }
 
 .designer-shoes {
@@ -85,4 +85,13 @@ a {
   text-align: left;
   margin-top: 0;
   padding-top: 0
+}
+
+.carousel-control {
+  bottom:-50px;
+  background-color: black;
+}
+
+.carousel-inner {
+   margin-bottom:50px;
 }

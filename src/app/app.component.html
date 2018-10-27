@@ -1,5 +1,17 @@
 <app-top-navbar></app-top-navbar>
-<app-logo></app-logo>
-<app-bottom-navbar></app-bottom-navbar>
-<app-img-link></app-img-link>
-<app-square-panel [childPanelList]="masterPanel"></app-square-panel>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <app-logo></app-logo>
+      <app-bottom-navbar></app-bottom-navbar>
+      <app-img-link></app-img-link>
+      <div class="container">        
+        <div class="row">
+          <div class="col-lg-12">
+            <app-square-panel [childPanelList]="masterPanel"></app-square-panel>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

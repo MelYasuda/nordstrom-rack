@@ -8,6 +8,7 @@ import { LogoComponent } from './logo/logo.component';
 import { BottomNavbarComponent } from './bottom-navbar/bottom-navbar.component';
 import { ImgLinkComponent } from './img-link/img-link.component';
 import { SquarePanelComponent } from './square-panel/square-panel.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { SquarePanelComponent } from './square-panel/square-panel.component';
     LogoComponent,
     BottomNavbarComponent,
     ImgLinkComponent,
-    SquarePanelComponent
+    SquarePanelComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule
