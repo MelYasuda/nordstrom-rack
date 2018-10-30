@@ -12,8 +12,8 @@ export class SquarePanelComponent implements OnInit {
   @Input() childPanelList: Panel[];
 
   masterCarousel: Carousel[] = [
-    new Carousel("party-shop.jpg", "Second slide");
-    new Carousel("nordy-club.gif", "Third slide");
+    new Carousel("party-shop.jpg", "Second slide"),
+    new Carousel("nordy-club.gif", "Third slide"),
   ]
 
   constructor() { }
