@@ -1,0 +1,17 @@
+{ "panels": [{
+  "category": "Women's Designer Clothing",
+  "shop": "SHOP NOW",
+  "src": "womens-designer-clothing.jpg",
+  "alt": "womans-designer-clothing"
+  }, {
+  "category": "Men's Designer Shoes",
+  "shop": "SHOP NOW",
+  "src": "men-designer-shoes.jpg",
+  "alt": "man-designer-shoes"
+  }, {
+  "category": "Grab & Go",
+  "shop": "SHOP NOW",
+  "src": "cosmetics.jpg",
+  "alt": "cosmetics"
+  }]
+}
