@@ -11,6 +11,7 @@ import { ImgLinkComponent } from './img-link/img-link.component';
 import { SquarePanelComponent } from './square-panel/square-panel.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CartComponent } from './cart/cart.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { CartComponent } from './cart/cart.component';
     ImgLinkComponent,
     SquarePanelComponent,
     CarouselComponent,
-    CartComponent
+    CartComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
