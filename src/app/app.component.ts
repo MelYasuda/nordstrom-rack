@@ -13,6 +13,6 @@ export class AppComponent {
   masterPanel: Panel[] = [
     new Panel("Women's Designer Clothing", "SHOP NOW", "womens-designer-clothing.jpg", "womans-designer-clothing"),
     new Panel("Women's Designer Clothing", "SHOP NOW", "men-designer-shoes.jpg", "man-designer-shoes"),
-    new Panel("Grab & Go", "SHOP NOW", "cosmetics.jpg", "cosmetics"),
+    new Panel("Grab & Go", "SHOP NOW", "cosmetics.jpg", "cosmetics")
   ]
 }
