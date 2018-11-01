@@ -15,4 +15,8 @@ export class PanelService {
   return this.panels;
 }
 
+addPanel(newPanel: Panel) {
+  this.panels.push(newPanel);
+}
+
 }

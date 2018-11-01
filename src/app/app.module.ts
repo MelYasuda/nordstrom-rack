@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { routing } from './app.routing';
-
+import { FormsModule }   from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TopNavbarComponent } from './top-navbar/top-navbar.component';
@@ -42,7 +42,8 @@ export const firebaseConfig = {
     BrowserModule,
     routing,
     AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
