@@ -1,29 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import { Panel } from '../models/panel.model';
 import { PanelService } from '../panel.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
-  selector: 'app-admin',
-  templateUrl: './admin.component.html',
-  styleUrls: ['./admin.component.css'],
+  selector: 'app-edit-panel',
+  templateUrl: './edit-panel.component.html',
+  styleUrls: ['./edit-panel.component.css'],
   providers: [PanelService]
 })
-export class AdminComponent implements OnInit {
+export class EditPanelComponent implements OnInit {
 
   panels: FirebaseListObservable<any[]>;
 
   constructor(private panelService: PanelService) { }
 
-
-
   ngOnInit() {
     this.panels = this.panelService.getPanels();
   }
 
-  submitForm(category: string, shop: string, src: string, alt: string) {
-    var newPanel: Panel = new Panel(category, shop, src, alt);
-    this.panelService.addPanel(newPanel);
+  beginUpdatingPanel(panelToUpdate){
+    this.panelService.updatePanel(panelToUpdate);
   }
 
 }

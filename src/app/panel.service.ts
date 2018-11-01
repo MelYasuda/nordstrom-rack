@@ -19,4 +19,10 @@ addPanel(newPanel: Panel) {
   this.panels.push(newPanel);
 }
 
+updatePanel(localUpdatedPanel) {
+  var panelEntryInFirebase = this.database.object('/panels/' + localUpdatedPanel.$key);
+  console.log(panelEntryInFirebase);
+  panelEntryInFirebase.update({ category: localUpdatedPanel.category, shop: localUpdatedPanel.shop, src: localUpdatedPanel.src, alt: localUpdatedPanel.alt })
+}
+
 }

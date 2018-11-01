@@ -16,6 +16,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AdminComponent } from './admin/admin.component';
+import { EditPanelComponent } from './edit-panel/edit-panel.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -36,7 +37,8 @@ export const firebaseConfig = {
     CarouselComponent,
     CartComponent,
     WelcomeComponent,
-    AdminComponent
+    AdminComponent,
+    EditPanelComponent
   ],
   imports: [
     BrowserModule,
