@@ -15,10 +15,10 @@ const appRoutes: Routes = [
     path: 'home',
     component: WelcomeComponent
   },
-  // {
-  //   path: 'cart',
-  //   component: CartComponent
-  // },
+  {
+    path: 'cart',
+    component: CartComponent
+  },
   {
     path: 'admin',
     component: AdminComponent
