@@ -132,3 +132,8 @@ a {
   margin-bottom: 4px;
   border: none;
 }
+
+.col-lg-6 {
+  padding-left: 43px;
+  margin-right: -40px;
+}

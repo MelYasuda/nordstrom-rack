@@ -45,6 +45,7 @@ export class AppComponent implements OnInit {
       $(".search-button").click(function(){
         $("#search-bar").show();
         $("#bottom-navbar").hide();
+        $("#input").click();
       });
 
       $(".fas").click(function(){

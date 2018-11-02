@@ -32,7 +32,7 @@ TBD
 * angular version 5
 * jQuery
 * Bootstrap
-* Firebase
+* Firebase(hosting, batabase, authentication)
 
 ### License
 
