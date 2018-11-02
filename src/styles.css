@@ -117,3 +117,5 @@ a {
 .img-link2 {
   margin-bottom: 15px;
 }
+
+.dropdown:hover .dropdown-menu {display: block;}
