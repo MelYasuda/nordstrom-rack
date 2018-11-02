@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {Panel} from './models/panel.model';
 import { Carousel } from './models/carousel.model';
 import { AuthenticationService } from './authentication.service';
 import { Router } from '@angular/router';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css'],
   providers: [AuthenticationService]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = '';
 
   user;
@@ -36,6 +37,21 @@ export class AppComponent {
 
   logout() {
     this.authService.logout();
+  }
+
+  public ngOnInit()
+  {
+    $(document).ready(function(){
+      $(".search-button").click(function(){
+        $("#search-bar").show();
+        $("#bottom-navbar").hide();
+      });
+
+      $(".fas").click(function(){
+        $("#search-bar").hide();
+        $("#bottom-navbar").show();
+      });
+    });
   }
 
 }
