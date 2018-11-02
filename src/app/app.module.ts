@@ -18,7 +18,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AdminComponent } from './admin/admin.component';
 import { EditPanelComponent } from './edit-panel/edit-panel.component';
 import { AngularFireAuthModule } from 'angularfire2/auth';
-import { AuthGuardService } from './auth-guard.service';
+// import { AuthGuardService } from './auth-guard.service';
 import { AuthenticationService } from './authentication.service';
 
 
@@ -52,7 +52,8 @@ export const firebaseConfig = {
     FormsModule,
     AngularFireAuthModule
   ],
-  providers: [AuthGuardService, AuthenticationService],
+  providers: [AuthenticationService],
+  // providers: [AuthGuardService, AuthenticationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
