@@ -1,6 +1,16 @@
 <app-top-navbar></app-top-navbar>
-<!-- <app-welcome [parentPanel]="masterPanel"></app-welcome> -->
+
+<li *ngIf="isLoggedIn">
+  <a>{{userName}}</a>
+  <a (click)="logout()">Log out</a>
+</li>
+<li *ngIf ="!isLoggedIn">
+  <a (click)="login()">Log in</a>
+</li>
+
 <router-outlet></router-outlet>
+
+
 <footer class="footer">
   <div class="container">
     <a class="text-muted" routerLink="admin">Admin</a>

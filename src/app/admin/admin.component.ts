@@ -15,8 +15,6 @@ export class AdminComponent implements OnInit {
 
   constructor(private panelService: PanelService) { }
 
-
-
   ngOnInit() {
     this.panels = this.panelService.getPanels();
   }
@@ -25,5 +23,7 @@ export class AdminComponent implements OnInit {
     var newPanel: Panel = new Panel(category, shop, src, alt);
     this.panelService.addPanel(newPanel);
   }
+
+
 
 }

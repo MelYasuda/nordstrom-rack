@@ -1,29 +1,33 @@
 <h3>Add New Panel to Homepage</h3>
-<div>
-  <div>
-    <label>Category:</label>
-    <br>
-    <input #newCategory>
-  </div>
+<div class="card">
+  <div class="card-body">
+    <div>
+      <div>
+        <label>Category:</label>
+        <br>
+        <input #newCategory>
+      </div>
 
-  <div>
-    <label>Shop:</label>
-    <br>
-    <input #newShop>
-  </div>
+      <div>
+        <label>Shop:</label>
+        <br>
+        <input #newShop>
+      </div>
 
-  <div>
-    <label>Image:</label>
-    <br>
-    <input #newSrc>
-  </div>
+      <div>
+        <label>Image:</label>
+        <br>
+        <input #newSrc>
+      </div>
 
-  <div>
-    <label>Image Description:</label>
-    <br>
-    <input #newAlt>
+      <div>
+        <label>Image Description:</label>
+        <br>
+        <input #newAlt>
+      </div>
+      <button class="btn btn-primary" (click)="submitForm(newCategory.value, newShop.value, newSrc.value, newAlt.value); newCategory.value=''; newShop.value=''; newSrc.value=''; newAlt.value=''">Add</button>
+    </div>
+
+    <button class="btn btn-secondary" routerLink="edit-panel">Edit Panel</button>
   </div>
-  <button (click)="submitForm(newCategory.value, newShop.value, newSrc.value, newAlt.value); newCategory.value=''; newShop.value=''; newSrc.value=''; newAlt.value=''">Add</button>
 </div>
-
-<button routerLink="edit-panel">Edit Panel</button>

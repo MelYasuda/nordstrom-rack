@@ -22,4 +22,8 @@ export class EditPanelComponent implements OnInit {
     this.panelService.updatePanel(panelToUpdate);
   }
 
+  beginDeletingPanel(panelToDelete){
+    this.panelService.deletePanel(panelToDelete);
+  }
+
 }

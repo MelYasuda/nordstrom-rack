@@ -1,20 +1,15 @@
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6" *ngFor="let panel of panels | async">
-            <div class="panel-description">
-              <input [(ngModel)]="panel.src"><br />
-              <input [(ngModel)]="panel.alt"><br />
-              <input [(ngModel)]="panel.category"><br />
-              <input [(ngModel)]="panel.shop"><br />
-              <button (click)="beginUpdatingPanel(panel)">Update</button>
-            </div>
-            <br />
-          </div>
-        </div>
+<div class="card">
+  <div class="card-body">
+    <div class="col-lg-6" *ngFor="let panel of panels | async">
+      <div class="panel-description">
+        Image: <input [(ngModel)]="panel.src"><br />
+        Image Caption: <input [(ngModel)]="panel.alt"><br />
+        Category: <input [(ngModel)]="panel.category"><br />
+        Deal: <input [(ngModel)]="panel.shop"><br />
+        <button class="btn btn-success" (click)="beginUpdatingPanel(panel)">Update</button>
+        <button class="btn btn-danger" (click)="beginDeletingPanel(panel)">Delete</button>
       </div>
+      <br />
     </div>
   </div>
 </div>

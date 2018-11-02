@@ -1,10 +1,15 @@
-nav.navbar {
-  padding-left: 15%;
-  padding-right: 15%;
+#top-navbar {
+  padding-left: 17%;
+  padding-right: 17%;
   background-color: #dbdbdb;
   padding-top: 0;
   padding-bottom: 0;
   font-size: 13px;
+}
+
+#bottom-navbar {
+  padding-left: 6%;
+  padding-right: 7%;
 }
 
 a {
@@ -103,4 +108,12 @@ a {
   height: 60px;
   background-color: #transparent;
   padding: 15px;
+}
+
+.img-link1 {
+  margin-bottom: 15px;
+}
+
+.img-link2 {
+  margin-bottom: 15px;
 }
