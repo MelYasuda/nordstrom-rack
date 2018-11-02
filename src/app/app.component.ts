@@ -18,16 +18,16 @@ export class AppComponent {
   private userName: String;
 
   constructor(public authService: AuthenticationService, private router: Router) {
-   //  this.authService.user.subscribe(user =>  {
-   //    if (user == null) {
-   //   this.isLoggedIn = false;
-   //   this.router.navigate(['']);
-   // } else {
-   //   this.isLoggedIn = true;
-   //   this.userName = user.displayName;
-   //   this.router.navigate([]);
-   // }
-   //  });
+    this.authService.user.subscribe(user =>  {
+      if (user == null) {
+     this.isLoggedIn = false;
+     // this.router.navigate(['admin']);
+   } else {
+     this.isLoggedIn = true;
+     this.userName = user.displayName;
+     this.router.navigate([]);
+   }
+    });
   }
 
   login() {
