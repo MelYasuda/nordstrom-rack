@@ -7,14 +7,18 @@ import { AdminComponent } from './admin/admin.component';
 import { EditPanelComponent } from './edit-panel/edit-panel.component';
 
 const appRoutes: Routes = [
+  { path: '',
+   redirectTo: 'home',
+  pathMatch: 'full'
+  },
   {
-    path: '',
+    path: 'home',
     component: WelcomeComponent
   },
-  {
-    path: 'cart',
-    component: CartComponent
-  },
+  // {
+  //   path: 'cart',
+  //   component: CartComponent
+  // },
   {
     path: 'admin',
     component: AdminComponent
